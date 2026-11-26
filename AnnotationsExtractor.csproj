@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>		
+		<OutputType>WinExe</OutputType>
+		<ApplicationIcon>Resources\Icons\AppIcon.ico</ApplicationIcon>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<AssemblyName>GradesExtractor</AssemblyName>
+		<RootNamespace>GradesExtractor</RootNamespace>
+		<PlatformTarget>x64</PlatformTarget>	
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<SelfContained>true</SelfContained>
+		<PublishSingleFile>true</PublishSingleFile>	
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>		
+		<EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>		
+		<PublishTrimmed>false</PublishTrimmed>
+		
+		
+	</PropertyGroup>
+
+
+
+	<ItemGroup>
+	  <None Remove="Resources\Icons\AppIcon.ico" />
+	  <None Remove="Resources\Images\AppLogo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ClosedXML" Version="0.105.1" />
+
+		<PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Resources\Strings.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Strings.resx</DependentUpon>
+		</Compile>
+
+		<EmbeddedResource Update="Resources\Strings.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Strings.Designer.cs</LastGenOutput>
+			<CustomToolNamespace></CustomToolNamespace>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Data\schedule.sql" LogicalName="schedule.sql" />
+		<Resource Include="Resources\Icons\AppIcon.ico" />
+		<Resource Include="Resources\Images\AppLogo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Page Update="Views\SplashWindow.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </Page>
+	</ItemGroup>
+	
+</Project>

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>Annotations Extractor</value>
+  </data>
+  <data name="OpenReportButton" xml:space="preserve">
+    <value>Abrir informe</value>
+  </data>
+  <data name="ExportExcelButton" xml:space="preserve">
+    <value>Exportar a Excel</value>
+  </data>
+  <data name="SelectReportDialogTitle" xml:space="preserve">
+    <value>Seleccionar informe de Appoderado</value>
+  </data>
+  <data name="SaveExcelDialogTitle" xml:space="preserve">
+    <value>Guardar archivo Excel</value>
+  </data>
+  <data name="WordDocumentFilter" xml:space="preserve">
+    <value>Documentos Word 97-2003 (*.doc)|*.doc</value>
+  </data>
+  <data name="ExcelFileFilter" xml:space="preserve">
+    <value>Libro de Excel (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="ReadWaiting" xml:space="preserve">
+    <value>Esperando informe...</value>
+  </data>
+  <data name="ReadPreparing" xml:space="preserve">
+    <value>Preparando lectura...</value>
+  </data>
+  <data name="ExportPending" xml:space="preserve">
+    <value>Sin exportar.</value>
+  </data>
+  <data name="ExportPreparing" xml:space="preserve">
+    <value>Preparando conversión...</value>
+  </data>
+  <data name="ReportReadError" xml:space="preserve">
+    <value>No fue posible procesar el informe.</value>
+  </data>
+  <data name="ExcelExportError" xml:space="preserve">
+    <value>No fue posible generar el archivo Excel.</value>
+  </data>
+  <data name="ExportCompleted" xml:space="preserve">
+    <value>El archivo Excel fue generado correctamente.</value>
+  </data>
+  <data name="ExportCompletedTitle" xml:space="preserve">
+    <value>Exportación completada</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="StartingWordReader" xml:space="preserve">
+    <value>Iniciando lector de documentos Word...</value>
+  </data>
+  <data name="OpeningReport" xml:space="preserve">
+    <value>Abriendo el informe...</value>
+  </data>
+  <data name="AnalyzingReport" xml:space="preserve">
+    <value>Analizando el informe...</value>
+  </data>
+  <data name="ClosingDocument" xml:space="preserve">
+    <value>Cerrando el documento...</value>
+  </data>
+  <data name="ReadCompleted" xml:space="preserve">
+    <value>Lectura completada.</value>
+  </data>
+  <data name="PreparingWorkbook" xml:space="preserve">
+    <value>Preparando el libro de Excel...</value>
+  </data>
+  <data name="WritingAnnotations" xml:space="preserve">
+    <value>Escribiendo anotaciones...</value>
+  </data>
+  <data name="GeneratingSummary" xml:space="preserve">
+    <value>Generando resumen...</value>
+  </data>
+  <data name="SavingExcelFile" xml:space="preserve">
+    <value>Guardando el archivo Excel...</value>
+  </data>
+  <data name="ExportCompletedStatus" xml:space="preserve">
+    <value>Conversión completada.</value>
+  </data>
+  <data name="ProcessingReportStructure" xml:space="preserve">
+    <value>Procesando estructura del informe: {0} de {1}</value>
+  </data>
+  <data name="ExcelHeaderCourse" xml:space="preserve">
+    <value>Curso</value>
+  </data>
+  <data name="ExcelHeaderStudent" xml:space="preserve">
+    <value>Alumno</value>
+  </data>
+  <data name="ExcelHeaderDate" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="ExcelHeaderWrittenBy" xml:space="preserve">
+    <value>Ingresado por</value>
+  </data>
+  <data name="ExcelHeaderCategory" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="ExcelHeaderDescription" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="ExcelWorksheetName" xml:space="preserve">
+    <value>Anotaciones</value>
+  </data>
+  <data name="SummaryWorksheetName" xml:space="preserve">
+    <value>Resumen</value>
+  </data>
+  <data name="ReadError" xml:space="preserve">
+    <value>Error durante la lectura del documento.</value>
+  </data>
+  <data name="WriteError" xml:space="preserve">
+    <value>Error de escritura al generar el libro de Excel.</value>
+  </data>
+  <data name="LogLabelFile" xml:space="preserve">
+    <value>Archivo:</value>
+  </data>
+  <data name="LogLabelCourse" xml:space="preserve">
+    <value>Curso:</value>
+  </data>
+  <data name="LogLabelStudents" xml:space="preserve">
+    <value>Estudiantes:</value>
+  </data>
+  <data name="LogLabelAnnotations" xml:space="preserve">
+    <value>Anotaciones:</value>
+  </data>
+  <data name="LogLabelEmptyAnnotations" xml:space="preserve">
+    <value>Estudiantes sin anotaciones:</value>
+  </data>
+  <data name="LogLabelStudent" xml:space="preserve">
+    <value>Alumno:</value>
+  </data>
+  <data name="LogLabelWrittenBy" xml:space="preserve">
+    <value>Ingresado por:</value>
+  </data>
+  <data name="LogLabelDate" xml:space="preserve">
+    <value>Fecha:</value>
+  </data>
+  <data name="LogLabelCategory" xml:space="preserve">
+    <value>Categoría:</value>
+  </data>
+  <data name="LogLabelDescription" xml:space="preserve">
+    <value>Descripción:</value>
+  </data>
+  <data name="ExcelFileNameFormat" xml:space="preserve">
+    <value>Anotaciones_{0}_{1}.xlsx</value>
+  </data>
+  <data name="ReplaceGradeSymbol" xml:space="preserve">
+    <value>º</value>
+  </data>
+  <data name="ReplaceLevelText" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="DateTimeFormat" xml:space="preserve">
+    <value>dd-MM-yyyy</value>
+  </data>
+  <data name="ExcelHeaderAnnotations" xml:space="preserve">
+    <value>Cantidad de anotaciones</value>
+  </data>
+  <data name="WordApplicationIdentifier" xml:space="preserve">
+    <value>Word.Application</value>
+  </data>
+  <data name="WordErrorNotFound" xml:space="preserve">
+    <value>Microsoft Word no está instalado o no está registrado correctamente.</value>
+  </data>
+  <data name="WordErrorCannotStart" xml:space="preserve">
+    <value>No fue posible iniciar Microsoft Word.</value>
+  </data>
+  <data name="FileNotFoundError" xml:space="preserve">
+    <value>No se encontró el archivo seleccionado.</value>
+  </data>
+  <data name="UnkownStudentError" xml:space="preserve">
+    <value>Se encontró una tabla de anotaciones antes de identificar al estudiante.</value>
+  </data>
+  <data name="UnkownCourseError" xml:space="preserve">
+    <value>No se puede determinar el curso al que pertenece el informe.</value>
+  </data>
+  <data name="EmptyReportError" xml:space="preserve">
+    <value>No se encontraron estudiantes en el informe.</value>
+  </data>
+  <data name="HeaderDataStudentTitle" xml:space="preserve">
+    <value>ALUMNO:</value>
+  </data>
+  <data name="HeaderWrittenBy" xml:space="preserve">
+    <value>Ingresado Por</value>
+  </data>
+  <data name="HeaderCategory" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="HeaderDescription" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="HeaderDate" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="InvalidDateTimeFormatError" xml:space="preserve">
+    <value>La fecha {0} de la fila {1} no tiene un formato válido.</value>
+  </data>
+  <data name="ExtractingStudentNameError" xml:space="preserve">
+    <value>No se pudo extraer la cadena con el nombre del estudiante.</value>
+  </data>
+  <data name="HeaderCourseTitle" xml:space="preserve">
+    <value>Curso:</value>
+  </data>
+  <data name="HeaderMatchGroup" xml:space="preserve">
+    <value>value</value>
+  </data>
+	<data name="ScheduleCourseNotFound" xml:space="preserve">
+  <value>No se encontró información para el curso {0}.</value>
+  </data>
+    <data name="InvalidCourseFormat" xml:space="preserve">
+  <value>El formato del curso '{0}' no es válido.</value>
+  </data>
+    <data name="ScheduleResourceNotFound" xml:space="preserve">
+  <value>No se encontró la base de datos de horarios integrada en la aplicación.</value>
+  </data>
+   <data name="ExcelMetadataCourse" xml:space="preserve">
+   <value>Curso:</value>
+ </data>
+ <data name="ExcelMetadataHeadTeacher" xml:space="preserve">
+   <value>Jefatura:</value>
+ </data>
+ <data name="ExcelMetadataSector" xml:space="preserve">
+  <value>Sector:</value>
+ </data>
+	<data name="BatchProcessButton" xml:space="preserve">
+  <value>Procesar lote</value>
+ </data>
+ <data name="ShowOutputCheckBox" xml:space="preserve">
+   <value>Mostrar salida detallada</value>
+ </data>
+ <data name="SelectBatchReportsDialogTitle" xml:space="preserve">
+   <value>Seleccionar informes de Appoderado</value>
+ </data>
+ <data name="SelectBatchOutputFolderTitle" xml:space="preserve">
+   <value>Seleccionar carpeta de salida</value>
+ </data>
+ <data name="BatchReadProgress" xml:space="preserve">
+   <value>Informe {0} de {1}: {2} — {3} {4}%</value>
+ </data>
+ <data name="BatchExportProgress" xml:space="preserve">
+   <value>Informe {0} de {1}: {2} — {3} {4}%</value>
+ </data>
+ <data name="BatchCompletedTitle" xml:space="preserve">
+   <value>Procesamiento completado</value>
+ </data>
+ <data name="BatchCompleted" xml:space="preserve">
+   <value>Procesamiento por lotes completado. Archivos procesados: {0}.</value>
+ </data>
+ <data name="BatchCompletedWithErrors" xml:space="preserve">
+   <value>Procesamiento finalizado. Archivos procesados: {0}. Archivos con error: {1}. El detalle de los errores fue copiado al portapapeles.</value>
+ </data>
+</root>
